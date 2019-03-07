@@ -1,0 +1,110 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 10em;
+    text-align: center;
+}
+
+.header__brand {
+    font-size: 4.5em;
+    background: #000;
+    margin: 0 auto;
+    color: #fff;
+    padding: 0.5em 0 0 1em;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    user-select: none;
+}
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 2em 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -.2px;
+    margin-right: 1em;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #616161;
+}
+
+.nav__link--active .nav__link,
+.nav__link:hover {
+    color: #000000;
+}
+
+.front-page {
+    text-align: center;
+}
+
+/* About page */
+.info-box {
+    padding: 3em;
+}
+
+@media only screen and (min-width:43.75em) {
+    .info-box {
+        margin-left: 46%;
+        padding: 3em 0;
+    }
+}
+
+.info__heading {
+    font-weight: 400;
+    font-size: 3.5em;
+    margin: 0.5em 0;
+}
+
+.info__content {
+    line-height: 1.5em;
+    font-size: 1em;
+    color: #212121;
+}
+
+.info__social {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .5em;
+}
+
+.info__icon {
+    width: 28px;
+    height: 28px;
+}
+
+/* Contact page */
+.contact-page {
+    padding: 1em;
+    line-height: 1.5em;
+    color: #212121;
+}
+
+.special-link {
+    font-weight: 600;
+    color: #FFC107;
+    border-bottom: 2px solid #FFC107;
+    text-decoration: none;
+}

@@ -21,7 +21,8 @@
     },
     "homepage": "",
     "dependencies": {
-        "normalize.css": "^8.0.0"
+        "normalize.css": "^8.0.0",
+        "vanilla-lazyload": "^11.0.3"
     },
     "devDependencies": {
         "ajv": "^6.3.0",
